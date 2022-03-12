@@ -1,2 +1,12 @@
 
 .idea/workspace.xml
+.idea/misc.xml
+*.iml
+*.blp
+glove.6B.50d.dat/__attrs__
+glove.6B.50d.dat/meta/sizes
+glove.6B.50d.dat/meta/storage
+glove.6B.50d.txt
+glove.6B.50d_idx.pkl
+glove.6B.50d_words.pkl
+*.xml
