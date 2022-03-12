@@ -12,3 +12,4 @@ glove.6B.50d_words.pkl
 *.xml
 .idea/NLP-practices.iml
 *.iml
+*.pyc
