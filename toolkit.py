@@ -65,6 +65,8 @@ def pretrained_word_embeddings(embed_path:str, over_writte:bool, special_tk:bool
         assert len(_word2idx) == embedding_matrix.shape[0]
 
     def word2idx(word:str):
+        if word == '<bos>': return 2
+        elif word == '<eos>': return 3
         return _word2idx.get(word,1)
     return embed_layer, embedding_matrix, word2idx, embed_dim
 

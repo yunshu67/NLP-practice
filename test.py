@@ -1,15 +1,7 @@
-from toolkit import *
+import numpy as np
 
-embed_layer, weights_matrix, word2idx, embed_dim = pretrained_word_embeddings('./glove.6B.50d.txt', True, freeze=True)
-word = 'hello'
-idx = word2idx[word]
-embedding = weights_matrix[idx]
+a = [[1,2,3],[4,5,6]]
 
-print(idx)
-print(embedding)
-print(type(embedding))
+b = np.array(a)
 
-
-data = torch.tensor([[1,2],[6,7]])
-output= embed_layer(data)
-print(output)
+print(type(b[0]))
