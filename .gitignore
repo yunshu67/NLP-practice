@@ -13,3 +13,6 @@ glove.6B.50d_words.pkl
 .idea/NLP-practices.iml
 *.iml
 *.pyc
+embedding layer/glove.6B.50d.dat/__attrs__
+embedding layer/glove.6B.50d.dat/meta/sizes
+embedding layer/glove.6B.50d.dat/meta/storage

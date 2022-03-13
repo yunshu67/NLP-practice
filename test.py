@@ -1,6 +1,6 @@
 from toolkit import *
 
-embed_layer, weights_matrix, word2idx, embed_dim = word_embedding('./glove.6B.50d.txt', True, freeze=True)
+embed_layer, weights_matrix, word2idx, embed_dim = pretrained_word_embeddings('./glove.6B.50d.txt', True, freeze=True)
 word = 'hello'
 idx = word2idx[word]
 embedding = weights_matrix[idx]
