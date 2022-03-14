@@ -16,3 +16,4 @@ glove.6B.50d_words.pkl
 embedding layer/glove.6B.50d.dat/__attrs__
 embedding layer/glove.6B.50d.dat/meta/sizes
 embedding layer/glove.6B.50d.dat/meta/storage
+*.pkl
