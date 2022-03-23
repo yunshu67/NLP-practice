@@ -17,3 +17,10 @@ embedding layer/glove.6B.50d.dat/__attrs__
 embedding layer/glove.6B.50d.dat/meta/sizes
 embedding layer/glove.6B.50d.dat/meta/storage
 *.pkl
+word embeddings/glove.6B.100d.dat/__attrs__
+word embeddings/glove.6B.100d.dat/meta/sizes
+word embeddings/glove.6B.100d.dat/meta/storage
+*.txt
+word embeddings/glove.6B.300d.dat/__attrs__
+word embeddings/glove.6B.300d.dat/meta/sizes
+word embeddings/glove.6B.300d.dat/meta/storage

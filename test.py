@@ -1,7 +1,4 @@
-import numpy as np
+a = [0]*5
+b= [1,2,3]
 
-a = [[1,2,3],[4,5,6]]
-
-b = np.array(a)
-
-print(type(b[0]))
+print(a+b)
